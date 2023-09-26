@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+    <title>Colors & Typography</title>
+</head>
+
+<body>
+    <h1 class="center red-text text-lighten-2">Typography</h1>
+    <div class="divider"></div>
+
+    <div class="container">
+        <h3 class="red-text text-lighten-2">Headers</h3>
+        <p>We provide some basic styling on header tags. In the example, you can see the the 6 header tags' different
+            sizes.</p>
+        <div class="card-panel purple grey-text text-lighten-4">
+            <h1>Heading One</h1>
+            <h2>Heading Two</h2>
+            <h3>Heading Three</h3>
+            <h4>Heading Four</h4>
+            <h5>Heading Five</h5>
+            <h6>Heading Six</h6>
+        </div>
+
+        <br>
+        <h3 class="red-text text-lighten-2">Blockquotes</h3>
+        <p>Blockquotes are mainly used to give emphasis to a quote or citation. You can also use these for some extra
+            text hierarchy and emphasis.</p>
+        <blockquote>
+            This is an example quotation that uses the blockquote tag. Here is another line to make it look bigger.
+        </blockquote>
+
+        <br>
+        <h3 class="red-text text-lighten-2">Flow Text</h3>
+        <button class="btn purple">Toggle to Flow-text</button>
+        <div class="card-panel">
+            <p class="flow-text">
+                One common flaw we've seen in many frameworks is a lack of support for truly responsive text. While
+                elements on the page resize fluidly, text still resizes on a fixed basis. To ameliorate this problem,
+                for text heavy pages, we've created a class that fluidly scales text size and line-height to optimize
+                readability for the user. Line length stays between 45-80 characters and line height scales to be larger
+                on smaller screens.
+
+                To see Flow Text in action, slowly resize your browser and watch the size of this text body change! Use
+                the button above to toggle off/on flow-text to see the difference!
+            </p>
+        </div>
+    </div>
+    <br><br><br><br>
+    <h1 class="red-text text-lighten-2 center">Media CSS</h1>
+    <div class="divider"></div>
+    <div class="container">
+        <h3 class="red-text text-lighten-2">Images</h3>
+        <p>Images can be styled in different ways using Materialize</p>
+        <p class="flow-text">Responsive Images</p>
+        <p>To make images resize responsively to page width, you can add the class responsive-img to your image tag. It
+            will now
+            have a max-width: 100% and height:auto.
+        </p>
+        <p class="flow-text">Circular images</p>
+        <div class="row">
+            <div class="col s12 m8 l6">
+                <div class="card-panel grey lighten-5 z-depth-1">
+                    <div class="row valign-wrapper">
+                        <div class="col s2">
+                            <img src="images/img1.png" alt="" class="responsive-img circle">
+                        </div>
+                        <div class="col s10">
+                            <span class="black-text">
+                                This is a square image. Add the "circle" class to it to make it appear circular.
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p>To make images appear circular, simply add class="circle" to them</p>
+
+        <br><br>
+        <h3 class="red-text text-lighten-2">Videos</h3>
+        <p>We provide a container for Embedded Videos that resizes them responsively.</p>
+        <p class="flow-text">Responsive Embeds</p>
+        <p>To make your embeds responsive, merely wrap them with a containing div which has the class video-container
+        </p>
+        <br><br>
+        <div class="video-container">
+            <iframe width="856" height="482" src="https://www.youtube.com/embed/fMH3CsEEcMA" title="Media Part 2"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen>
+            </iframe>
+        </div>
+    </div>
+    <br>
+    <h1 class="center red-text text-lighten-2">Media</h1>
+    <div class="divider"></div>
+    <div class="container">
+        <br>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, quaerat inventore nulla praesentium
+            adipisci in labore fuga ut aspernatur, quasi laudantium cupiditate similique ad. Iure error deleniti cum
+            modi repellat!
+        </p>
+        <h3 class="red-text text-lighten-2">Material Box</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium, officia doloremque dolores mollitia,
+            voluptas alias beatae itaque similique placeat vel fugiat vitae, deserunt quasi. Ex perspiciatis deserunt
+            nobis atque placeat?Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi a perferendis eum laborum
+            veniam magni ducimus sit ab hic natus laudantium, impedit reiciendis ad pariatur, possimus recusandae quas
+            facilis. Excepturi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit blanditiis, labore error
+            magni sunt quasi recusandae, ipsum laboriosam, quae rem minima exercitationem inventore adipisci consectetur
+            iure pariatur! Accusantium, blanditiis provident.
+        </p>
+        <img src="images/img1.png" alt="" class="materialboxed responsive-img" data-caption="Luffy">
+        <br>
+        <!-- Slider -->
+        <h3 class="red-text text-lighten-2">Slider</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, nostrum soluta laborum ut quia quibusdam in
+            accusamus aliquam! Aliquid animi ad, neque repellat tenetur voluptatum est maiores officia doloribus nemo.
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam eius a voluptatem laboriosam cum
+            distinctio, commodi ipsam. Sunt quis consequatur dolor hic enim. Corporis corrupti, accusamus tenetur
+            deserunt a nihil?
+        </p>
+    </div>
+
+    <div class="slider">
+        <ul class="slides">
+            <li>
+                <img src="images/img1.png" alt="">
+                <div class="caption center-align">
+                    <h3>This is our big tag Tagline</h3>
+                    <h5 class="light grey-text text-lighten-3">Here's our small slogan</h5>
+                </div>
+            </li>
+            <li>
+                <img src="images/img2.jpg" alt="">
+                <div class="caption center-align">
+                    <h3>This is our big tag Tagline</h3>
+                    <h5 class="light grey-text text-lighten-3">Here's our small slogan</h5>
+                </div>
+            </li>
+            <li>
+                <img src="images/img3.png" alt="">
+                <div class="caption center-align">
+                    <h3>This is our big tag Tagline</h3>
+                    <h5 class="light grey-text text-lighten-3">Here's our small slogan</h5>
+                </div>
+            </li>
+            <li>
+                <img src="images/img4.jpg" alt="">
+                <div class="caption center-align">
+                    <h3>This is our big tag Tagline</h3>
+                    <h5 class="light grey-text text-lighten-3">Here's our small slogan</h5>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+    <div style="height: 1000px;"></div>
+
+
+    <!-- Compiled and minified JQuery -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            // materialbox init
+            $('.materialboxed').materialbox({
+                inDuration: 1000,
+                outDuration: 1000
+            });
+            // slider init
+            $('.slider').slider({
+                indicators: false,
+                height: 200,
+                duration: 1000,
+                interval: 1000,
+            });
+        })
+    </script>
+</body>
+
+</html>
